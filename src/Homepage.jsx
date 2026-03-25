@@ -6,7 +6,7 @@ const Homepage = () => {
     const { searchResults, isSearching } = useOutletContext();
 
     return (
-        <div className="overflow-x-hidden  bg-gray-900">
+        <div className="overflow-x-hidden bg-[#1b1f45] h-screen overflow-y-scroll scrollbar-hide">
             <ProductContainer
                 searchResults={searchResults}
                 isSearching={isSearching}
